@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Footer from '../src/components/Footer';
+import Header from '../src/components/header';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <App />
     <Footer />
   </React.StrictMode>,
