@@ -8,6 +8,6 @@ function App() {
   <div>
     <Header />
     <Footer /> 
-  </div>)
+  </div>);
 }
 export default App;
