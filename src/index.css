@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+
 .git-icon {
   text-align: center;
   width: 24px;
@@ -27,4 +28,8 @@ footer {
   margin-top: 100px;
   color: white;
   background-color: #800060;
+}
+
+.text-center {
+  text-align: center;
 }
