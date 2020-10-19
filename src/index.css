@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.git-icon {
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  position: relative;
+  height: 100px;
+  margin-top: 100px;
+  color: white;
+  background-color: #800060;
+}
