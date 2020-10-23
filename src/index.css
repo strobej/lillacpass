@@ -32,4 +32,11 @@ footer {
 
 .text-center {
   text-align: center;
+  font-size: 20px;
+}
+
+.new-button {
+  padding: 10px;
+  border-radius: 10px;  
+  text-align: center;
 }
