@@ -9,8 +9,8 @@ function App() {
   <div>
     <Header />
     <Input id="password-box" type="text" />
-    <Input id="simple-button" type="button" class="btn btn-light" value="Simple password" onClick="generator()" />
-    <Input id="strong-button" type="button" class="btn btn-light" value="Strong password" onClick="complicatedGenerator()" />
+    <Input id="simple-button" type="button" className="btn btn-light" value="Simple password" onClick="generator" />
+    <Input id="strong-button" type="button" className="btn btn-light" value="Strong password" onClick="generator" />
     <Footer /> 
   </div>);
 }
