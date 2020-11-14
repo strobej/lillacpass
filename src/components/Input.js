@@ -1,26 +1,22 @@
 import React from 'react';
-
-function generateSimplePasswsword(){
-    console.log("sdfsdfasdfsd");
-}
-
+import {generatePassword} from '../api/api';
 
 function Input(props) {
-    function generator(e) {
-        e.preventDefault();
-
-        const id = props.id;
-        if (id === "simple-button"){
-            generateSimplePasswsword();
-        }
-    }
-
+     function handleClick() {
+         if (props.passwordType === "simple") {   
+            props.changePassword(generatePassword("simple"));
+        } else {
+             props.changePassword(generatePassword("strong"));
+         }
+     }
 
     return (<div className="new-button">
-            <input id={props.id} type={props.type} className={props.class} value={props.value} onClick={generator} />
+            <input id={props.id} 
+            type={props.type} 
+            className={props.class} 
+            value={props.value}
+            onClick={handleClick} />
             </div>);
 }
-
-
 
 export default Input;

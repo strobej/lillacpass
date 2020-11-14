@@ -39,4 +39,14 @@ footer {
   padding: 10px;
   border-radius: 10px;  
   text-align: center;
+  cursor: pointer;
+}
+
+.new-button:active {
+  transform: scale(0.98);
+}
+
+.pass-box {
+  text-align: center;
+  font-size: 30px;
 }
