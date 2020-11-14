@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.pass-box {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #800060;
+}
