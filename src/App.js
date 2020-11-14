@@ -7,8 +7,6 @@ import Input from '../src/components/Input';
 function App() {
   const [password, getPassword] = useState("...select password!");
 
-
-
   return (
   <div>
     <Header />
