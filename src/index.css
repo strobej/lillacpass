@@ -32,4 +32,21 @@ footer {
 
 .text-center {
   text-align: center;
+  font-size: 20px;
+}
+
+.new-button {
+  padding: 10px;
+  border-radius: 10px;  
+  text-align: center;
+  cursor: pointer;
+}
+
+.new-button:active {
+  transform: scale(0.98);
+}
+
+.pass-box {
+  text-align: center;
+  font-size: 30px;
 }
