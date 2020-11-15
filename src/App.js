@@ -12,7 +12,7 @@ function App() {
     <Header />
     <p className="pass-box">{password}</p>
     <Input id="simple-button" type="button" className="btn btn-light" value="Simple password" changePassword={getPassword} passwordType="simple" />
-    <Input id="strong-button" type="button" className="btn btn-light" value="Strong password" changePassword={getPassword} passwordType="strong" />
+    <Input id="complex-button" type="button" className="btn btn-light" value="Complex password" changePassword={getPassword} passwordType="complex" />
     <Footer /> 
   </div>);
 }
