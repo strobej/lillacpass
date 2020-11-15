@@ -1,6 +1,6 @@
 function generatePassword(type) {
     if(type === "simple") {
-        return animalsGenerator() + "-" + verbsGenerator() + "-" +numberGenerator(100, 999);
+        return numberGenerator(100, 999) + "-" + animalsGenerator() + "s-" + verbsGenerator();
     } else { 
         return capitalizeOneLetter(animalsGenerator()) + codesGenerator() + capitalizeOneLetter(verbsGenerator()) + numberGenerator(100, 999);
     }
@@ -21,7 +21,7 @@ function codesGenerator() {
 }
 
 function verbsGenerator() {
-    let verbs = ["sleeps", "eats", "drinks", "walks", "springs", "learns", "comes", "creates", "chooses", "allows", "brings", "begins", "enjoys", "decides", "writes", "prepares", "builds", "believes", "follows", "prevents", "invests", "loses", "hears", "applies", "forgets", "recommends", "accepts", "compares", "imagines", "proves", "relaxes", "reacts", "earns", "installs", "organizes", "sends"]; 
+    let verbs = ["sleep", "eat", "drink", "walk", "spring", "learn", "come", "create", "choose", "allow", "bring", "begin", "enjoy", "decide", "write", "prepare", "build", "believe", "follow", "prevent", "invest", "lose", "hear", "apply", "forget", "recommend", "accept", "compare", "imagine", "prove", "relaxe", "react", "earn", "install", "organize", "send"]; 
     let randomVerbs = verbs[Math.floor(Math.random() * verbs.length)];
     
     return randomVerbs;
