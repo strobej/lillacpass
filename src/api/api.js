@@ -21,7 +21,7 @@ function codesGenerator() {
 }
 
 function verbsGenerator() {
-    let verbs = ["sleep", "eat", "drink", "walk", "spring", "learn", "come", "create", "choose", "allow", "bring", "begin", "enjoy", "decide", "write", "prepare", "build", "believe", "follow", "prevent", "invest", "lose", "hear", "apply", "forget", "recommend", "accept", "compare", "imagine", "prove", "relaxe", "react", "earn", "install", "organize", "send"]; 
+    let verbs = ["sleep", "eat", "drink", "walk", "spring", "learn", "come", "create", "choose", "allow", "bring", "begin", "enjoy", "decide", "write", "prepare", "build", "believe", "follow", "prevent", "invest", "lose", "hear", "apply", "forget", "recommend", "accept", "compare", "imagine", "prove", "relax", "react", "earn", "install", "organize", "send"]; 
     let randomVerbs = verbs[Math.floor(Math.random() * verbs.length)];
     
     return randomVerbs;
