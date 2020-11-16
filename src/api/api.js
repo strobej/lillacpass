@@ -1,8 +1,8 @@
 function generatePassword(type) {
     if(type === "simple") {
-        return animalsGenerator() + verbsGenerator() + numberGenerator(100, 999);
+        return numberGenerator(100, 999) + "-" + animalsGenerator() + "s-" + verbsGenerator();
     } else { 
-        return animalsGenerator() + codesGenerator() + verbsGenerator() + numberGenerator(100, 999);
+        return capitalizeOneLetter(animalsGenerator()) + codesGenerator() + capitalizeOneLetter(verbsGenerator()) + numberGenerator(100, 999);
     }
 }
 
@@ -32,6 +32,12 @@ function numberGenerator(min, max) {
     max = Math.floor(max);
    
     return Math.floor(Math.random() * (max - min)) + min; 
+}
+
+function capitalizeOneLetter(word){
+    let randomLetter = word.charAt(Math.floor(Math.random() * word.length));
+    
+    return word.replace(randomLetter, randomLetter.toUpperCase());
 }
  
 export {generatePassword};
