@@ -10,9 +10,11 @@ function App() {
   return (
   <div>
     <Header />
-    <p className="pass-box">{password}</p>
-    <Input id="simple-button" type="button" className="btn btn-light" value="Simple password" changePassword={getPassword} passwordType="simple" />
-    <Input id="strong-button" type="button" className="btn btn-light" value="Strong password" changePassword={getPassword} passwordType="strong" />
+    <div className="main-page">
+      <p className="pass-box">{password}</p>
+      <Input id="simple-button" type="button" className="btn btn-light" value="Simple password" changePassword={getPassword} passwordType="simple" />
+      <Input id="strong-button" type="button" className="btn btn-light" value="Strong password" changePassword={getPassword} passwordType="strong" />
+    </div>
     <Footer /> 
   </div>);
 }
