@@ -39,7 +39,6 @@ footer {
 }
 
 .new-button {
-  padding: 10px;
   border-radius: 10px;  
   text-align: center;
   cursor: pointer;
@@ -49,3 +48,10 @@ footer {
   transform: scale(0.98);
 }
 
+#simple-button, #complex-button {
+  background-color: white;
+  color: black;
+  border: 100px;
+  width: 180px;
+  margin: 10px;
+}
