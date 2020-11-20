@@ -17,14 +17,14 @@ code {
   text-align: center;
   width: 24px;
   height: 24px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 footer {
   text-align: center;
   position: fixed;
-  height: 100px;
+  height: 80px;
   margin-top: 0px;
   color: white;
   background-color: #800060;
@@ -55,3 +55,4 @@ footer {
   width: 180px;
   margin: 10px;
 }
+
