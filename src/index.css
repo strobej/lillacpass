@@ -17,14 +17,14 @@ code {
   text-align: center;
   width: 24px;
   height: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 10px;
 }
 
 footer {
   text-align: center;
   position: fixed;
-  height: 80px;
+  height: 70px;
   margin-top: 0px;
   color: white;
   background-color: #800060;
@@ -38,8 +38,9 @@ footer {
   font-size: 20px;
 }
 
-.right-icon {
-  font-size: 10px;
+.copyright-icon {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .new-button {
