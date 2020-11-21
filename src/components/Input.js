@@ -5,9 +5,15 @@ function Input(props) {
      function handleClick() {
          if (props.passwordType === "simple") {   
             props.changePassword(generatePassword("simple"));
-        } else {
-             props.changePassword(generatePassword("strong"));
+        } else if (props.passwordType === "complex") {
+            props.changePassword(generatePassword("complex"));
+         } else {
+            copyPassword(props.password);
          }
+     }
+
+     function copyPassword(password){
+        navigator.clipboard.writeText(password);
      }
 
     return (<div className="new-button">
