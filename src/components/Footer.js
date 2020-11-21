@@ -12,7 +12,7 @@ function Footer() {
     <footer>
         <a href="https://github.com/strobej/lillac">
         <img className="git-icon" alt="github" src='github.png'/></a>
-        <div>© Copyright {getCurrentYear()}</div> 
+        <div className="copyright-icon">© Copyright {getCurrentYear()}</div> 
     </footer>
     );  
 }

@@ -18,7 +18,7 @@ code {
   width: 24px;
   height: 24px;
   margin-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 footer {
@@ -36,6 +36,10 @@ footer {
 .text-center {
   text-align: center;
   font-size: 20px;
+}
+
+.right-icon {
+  font-size: 10px;
 }
 
 .new-button {
