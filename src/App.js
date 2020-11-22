@@ -11,7 +11,9 @@ function App() {
   <div>
     <Header />
     <div className="main-page">
-      <p className="pass-box">{password}</p>
+      <div>
+        <p className="pass-box">{password}</p>
+      </div>
       <div className="password-buttons">
       <Input id="simple-button" type="button" value="Simple password" changePassword={getPassword} passwordType="simple" />
       <Input id="complex-button" type="button" value="Complex password" changePassword={getPassword} passwordType="complex" />

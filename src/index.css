@@ -53,12 +53,36 @@ footer {
   transform: scale(0.98);
 }
 
-#simple-button, #complex-button, #copy-button {
+#simple-button, #complex-button {
   background-color: white;
   color: black;
   border: 100px;
   width: 180px;
   margin: 10px;
+}
+
+#copy-button {
+  background-color: #800060;
+  border-radius: 28px;
+  border: 1px solid #800060;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 6px 31px;
+  margin-top: 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #800060;
+}
+
+#copy-button:hover {
+  background-color: #800060;
+}
+
+#copy-button:active {
+  position:relative;
+  top:1px;
 }
 
 
