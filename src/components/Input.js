@@ -16,7 +16,7 @@ function Input(props) {
         navigator.clipboard.writeText(password);
      }
 
-    return (<div className="new-button">
+    return (<div className="">
             <input id={props.id} 
             type={props.type} 
             className={props.class} 

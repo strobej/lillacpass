@@ -61,3 +61,8 @@ footer {
   margin: 10px;
 }
 
+
+.password-buttons, .copy {
+  display: flex;
+  justify-content: center;
+}
