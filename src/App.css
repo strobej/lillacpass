@@ -39,12 +39,12 @@
 
 .pass-box {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #800060;
   margin: auto;
   width: 320px;
-  height: 40px;
+  height: 35px;
   border: 3px solid green;
   padding: 10px;
   border-radius: 4px;
