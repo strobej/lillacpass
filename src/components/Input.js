@@ -5,12 +5,18 @@ function Input(props) {
      function handleClick() {
          if (props.passwordType === "simple") {   
             props.changePassword(generatePassword("simple"));
-        } else {
-             props.changePassword(generatePassword("strong"));
+        } else if (props.passwordType === "complex") {
+            props.changePassword(generatePassword("complex"));
+         } else {
+            copyPassword(props.password);
          }
      }
 
-    return (<div className="new-button">
+     function copyPassword(password){
+        navigator.clipboard.writeText(password);
+     }
+
+    return (<div className="">
             <input id={props.id} 
             type={props.type} 
             className={props.class} 

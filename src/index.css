@@ -57,7 +57,44 @@ footer {
   background-color: white;
   color: black;
   border: 100px;
-  width: 180px;
+  width: 160px;
+  height: 40px;
   margin: 10px;
+  outline:none;
+  border-radius: 28px;
+  border: 2px solid #c495d5;
 }
 
+#copy-button {
+  background-color: #800060;
+  border-radius: 28px;
+  border: 1px solid #800060;
+  border: 100px;
+  width: 160px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 6px 31px;
+  margin-top: 0;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #800060;
+  outline: none;
+}
+
+#copy-button:hover {
+  background-color: #8a25b1;
+}
+
+#simple-button:active, #complex-button:active, #copy-button:active {
+  position:relative;
+  top:1px;
+}
+
+.password-buttons, .copy {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
