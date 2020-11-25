@@ -12,7 +12,6 @@ code {
     monospace;
 }
 
-
 .git-icon {
   text-align: center;
   width: 24px;
@@ -41,16 +40,6 @@ footer {
 .copyright-icon {
   font-size: 12px;
   margin-bottom: 10px;
-}
-
-.new-button {
-  border-radius: 10px;  
-  text-align: center;
-  cursor: pointer;
-}
-
-.new-button:active {
-  transform: scale(0.98);
 }
 
 #simple-button, #complex-button {
